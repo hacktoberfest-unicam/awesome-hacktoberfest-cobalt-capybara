@@ -168,40 +168,29 @@ You can choose to implement the solution in any of the following programming lan
   - `README.md` (this file).
   - `tests/` (directory containing your test cases).
 
-## Pseudocode example
-```pseudocode
-CLASS Pokemon
-    ATTRIBUTE name
-    ATTRIBUTE type
-    ATTRIBUTE hp
-    ATTRIBUTE moves
+## Example (Python)
+```python
+# pokemon.py
 
-    METHOD init(name, type, hp, moves)
-        SET self.name TO name
-        SET self.type TO type
-        SET self.hp TO hp
-        SET self.moves TO moves
-    END METHOD
+class Pokemon:
+    def __init__(self, name, type, hp, moves):
+        self.name = name
+        self.type = type
+        self.hp = hp
+        self.moves = moves
 
-    METHOD attack(target, move)
-        PRINT self.name + " uses " + move + " on " + target.name + "!"
-        SET damage TO 10  # Example fixed damage
-        CALL target.defend(damage)
-    END METHOD
+    def attack(self, target, move):
+        print(f"{self.name} uses {move} on {target.name}!")
+        damage = 10  # Simplified fixed damage for example
+        target.defend(damage)
 
-    METHOD defend(damage)
-        SUBTRACT damage FROM self.hp
-        PRINT self.name + " takes " + damage + " damage and now has " + self.hp + " HP left."
-    END METHOD
-END CLASS
-```
-# Example of creating Pokémon and simulating an attack
-```
-FUNCTION main()
-    CREATE pikachu AS Pokemon("Pikachu", "Electric", 35, ["Thunder Shock", "Quick Attack"])
-    CREATE charmander AS Pokemon("Charmander", "Fire", 39, ["Scratch", "Ember"])
+    def defend(self, damage):
+        self.hp -= damage
+        print(f"{self.name} takes {damage} damage and now has {self.hp} HP left.")
 
-    CALL pikachu.attack(charmander, "Thunder Shock")
-END FUNCTION
-```
+if __name__ == "__main__":
+    pikachu = Pokemon("Pikachu", "Electric", 35, ["Thunder Shock", "Quick Attack"])
+    charmander = Pokemon("Charmander", "Fire", 39, ["Scratch", "Ember"])
+
+    pikachu.attack(charmander, "Thunder Shock")
 
