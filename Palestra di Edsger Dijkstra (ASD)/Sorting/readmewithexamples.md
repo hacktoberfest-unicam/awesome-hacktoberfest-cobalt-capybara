@@ -31,7 +31,7 @@ You can choose to implement the solution in any of the following programming lan
 2. **Dataset:**
    - You will be provided with a list of Pokémon, each having a name and health points (HP).
    - Example:
-     ```pseudocode
+     ```python
      pokemons = [
          {"name": "Pikachu", "hp": 35},
          {"name": "Charizard", "hp": 78},
@@ -46,13 +46,22 @@ You can choose to implement the solution in any of the following programming lan
    - Implement the chosen sorting algorithm in your preferred programming language.
 
 4. **Code Structure:**
-   - Create a file for your implementation (e.g., `sort_pokemons.pseudo`).
+   - Create a file for your implementation (e.g., `sort_pokemons.py` for Python, `SortPokemons.java` for Java).
    - Implement the sorting function in this file.
    - The function should take the list of Pokémon as input and return a sorted list.
 
 5. **Function Signatures:**
    - Ensure your sorting function follows the signature for your chosen language. Examples:
-     - **Pseudocode:** `FUNCTION sort_pokemons(pokemons) RETURNS sorted_pokemons`
+     - **Python:** `def sort_pokemons(pokemons: list) -> list`
+     - **Java:** `public static List<Pokemon> sortPokemons(List<Pokemon> pokemons)`
+     - **JavaScript:** `function sortPokemons(pokemons) { return pokemons; }`
+     - **C#:** `public static List<Pokemon> SortPokemons(List<Pokemon> pokemons)`
+     - **C:** `void sort_pokemons(Pokemon pokemons[], int size)`
+     - **C++:** `std::vector<Pokemon> sortPokemons(std::vector<Pokemon> pokemons)`
+     - **Haskell:** `sortPokemons :: [Pokemon] -> [Pokemon]`
+     - **Go:** `func sortPokemons(pokemons []Pokemon) []Pokemon`
+     - **Rust:** `fn sort_pokemons(pokemons: &mut Vec<Pokemon>)`
+     - **PHP:** `function sortPokemons(array $pokemons): array`
 
 6. **Testing:**
    - Create test cases to validate your sorting function.
@@ -62,29 +71,23 @@ You can choose to implement the solution in any of the following programming lan
 - Create a GitHub repository for your project.
 - Push your code to the repository.
 - Ensure your repository includes the following files:
-  - Your implementation file (e.g., `sort_pokemons.pseudo`).
+  - Your implementation file (e.g., `sort_pokemons.py`, `SortPokemons.java`).
   - `README.md` (this file).
   - `tests/` (directory containing your test cases).
 
-## Example in Pseudocode
+## Example (Python)
+```python
+# sort_pokemons.py
 
-```pseudocode
-# sort_pokemons.pseudo
+def bubble_sort(pokemons):
+    n = len(pokemons)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if pokemons[j]['hp'] > pokemons[j+1]['hp']:
+                pokemons[j], pokemons[j+1] = pokemons[j+1], pokemons[j]
+    return pokemons
 
-FUNCTION bubble_sort(pokemons)
-    n = LENGTH(pokemons)
-    FOR i FROM 0 TO n-1 DO
-        FOR j FROM 0 TO n-i-2 DO
-            IF pokemons[j]["hp"] > pokemons[j+1]["hp"] THEN
-                SWAP pokemons[j] WITH pokemons[j+1]
-            END IF
-        END FOR
-    END FOR
-    RETURN pokemons
-END FUNCTION
-
-# Main execution starts here
-FUNCTION main()
+if __name__ == "__main__":
     pokemons = [
         {"name": "Pikachu", "hp": 35},
         {"name": "Charizard", "hp": 78},
@@ -92,7 +95,5 @@ FUNCTION main()
         {"name": "Squirtle", "hp": 44},
     ]
     
-    sorted_pokemons = bubble_sort(pokemons)
-    PRINT "Sorted by HP: " + sorted_pokemons
-END FUNCTION
+    print("Sorted by HP:", bubble_sort(pokemons))
 
