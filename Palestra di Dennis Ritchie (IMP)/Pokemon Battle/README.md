@@ -1,4 +1,4 @@
-# Sfida 7: Simulazione di una Battaglia Pokémon
+# Pokemon Battle Challenge
 
 ## Overview
 Welcome to the Pokémon Battle Simulation Challenge! In this exercise, you will create a simple program that simulates a battle between two Pokémon using loops and conditional statements. This challenge is designed to help you grasp the basics of imperative programming, focusing on control flow through loops and conditionals.
