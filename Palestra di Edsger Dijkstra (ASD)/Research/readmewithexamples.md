@@ -31,7 +31,7 @@ You can choose to implement the solution in any of the following programming lan
 2. **Dataset:**
    - You will be provided with a list of Pokémon, each having a name and ID.
    - Example:
-     ```pseudocode
+     ```python
      pokedex = [
          {"id": 1, "name": "Bulbasaur"},
          {"id": 2, "name": "Ivysaur"},
@@ -46,13 +46,22 @@ You can choose to implement the solution in any of the following programming lan
    - Implement the chosen search algorithm in your preferred programming language.
 
 4. **Code Structure:**
-   - Create a file for your implementation (e.g., `search_pokemon.pseudo`).
+   - Create a file for your implementation (e.g., `search_pokemon.py` for Python, `SearchPokemon.java` for Java).
    - Implement the search function in this file.
    - The function should take the Pokedex list and the Pokémon name or ID as input and return the Pokémon details if found.
 
 5. **Function Signatures:**
    - Ensure your search function follows the signature for your chosen language. Examples:
-     - **Pseudocode:** `FUNCTION search_pokemon(pokedex, name_or_id) RETURNS pokemon`
+     - **Python:** `def search_pokemon(pokedex: list, name_or_id) -> dict`
+     - **Java:** `public static Pokemon searchPokemon(List<Pokemon> pokedex, String nameOrId)`
+     - **JavaScript:** `function searchPokemon(pokedex, nameOrId) { return pokemon; }`
+     - **C#:** `public static Pokemon SearchPokemon(List<Pokemon> pokedex, string nameOrId)`
+     - **C:** `Pokemon* search_pokemon(Pokemon pokedex[], int size, const char* name_or_id)`
+     - **C++:** `Pokemon searchPokemon(std::vector<Pokemon> pokedex, std::string nameOrId)`
+     - **Haskell:** `searchPokemon :: [Pokemon] -> String -> Maybe Pokemon`
+     - **Go:** `func searchPokemon(pokedex []Pokemon, nameOrId string) *Pokemon`
+     - **Rust:** `fn search_pokemon(pokedex: &Vec<Pokemon>, name_or_id: &str) -> Option<&Pokemon>`
+     - **PHP:** `function searchPokemon(array $pokedex, $nameOrId): array`
 
 6. **Testing:**
    - Create test cases to validate your search function.
@@ -62,26 +71,21 @@ You can choose to implement the solution in any of the following programming lan
 - Create a GitHub repository for your project.
 - Push your code to the repository.
 - Ensure your repository includes the following files:
-  - Your implementation file (e.g., `search_pokemon.pseudo`).
+  - Your implementation file (e.g., `search_pokemon.py`, `SearchPokemon.java`).
   - `README.md` (this file).
   - `tests/` (directory containing your test cases).
 
-## Example in Pseudocode
+## Example (Python)
+```python
+# search_pokemon.py
 
-```pseudocode
-# search_pokemon.pseudo
+def linear_search(pokedex, name_or_id):
+    for pokemon in pokedex:
+        if pokemon["name"] == name_or_id or pokemon["id"] == name_or_id:
+            return pokemon
+    return None
 
-FUNCTION linear_search(pokedex, name_or_id)
-    FOR EACH pokemon IN pokedex DO
-        IF pokemon["name"] == name_or_id OR pokemon["id"] == name_or_id THEN
-            RETURN pokemon
-        END IF
-    END FOR
-    RETURN None
-END FUNCTION
-
-# Main execution starts here
-FUNCTION main()
+if __name__ == "__main__":
     pokedex = [
         {"id": 1, "name": "Bulbasaur"},
         {"id": 2, "name": "Ivysaur"},
@@ -91,10 +95,8 @@ FUNCTION main()
     
     search_key = "Charmander"
     result = linear_search(pokedex, search_key)
-    IF result IS NOT None THEN
-        PRINT "Pokémon found: " + result
-    ELSE
-        PRINT "Pokémon not found."
-    END IF
-END FUNCTION
+    if result:
+        print(f"Pokémon found: {result}")
+    else:
+        print("Pokémon not found.")
 
