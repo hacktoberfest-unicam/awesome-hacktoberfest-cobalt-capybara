@@ -18,14 +18,16 @@ You can choose to implement the solution in any of the following programming lan
 - Python
 
 ## Instructions
-1. Write a recursive function to calculate the total damage suffered by the Pokémon. The function should take the following inputs:
-- The Pokémon's type information.
-- A list of enemy moves, each with its type and base damage.
-- A weakness table that maps Pokémon types and move types to their respective damage multipliers.
+1. Add new pokemon moves in the mosseNemiche list
+2. Add new weaknesses in the tabellaDebolezze list (Use this site to get info on the real weaknesses https://www.pkmn.help/defense/)
+1. Write a recursive function to calculate the total damage suffered by the Pokémon. The function should take the following inputs: <br>
+  -- The Pokémon's type information. <br>
+  -- A list of enemy moves, each with its type and base damage. <br>
+  -- A weakness table that maps Pokémon types and move types to their respective damage multipliers.<br>
 
-2. Ensure that your function:
-- Iterates through each enemy move recursively to compute the total damage.
-- Applies the weakness multipliers based on the Pokémon's types and the move types.
+4. Ensure that your function:<br>
+  -- Iterates through each enemy move recursively to compute the total damage.<br>
+  -- Applies the weakness multipliers based on the Pokémon's types and the move types.<br>
 
 ## Submission
 - Create a GitHub repository for your project.
@@ -43,9 +45,10 @@ import qualified Data.Map as Map
 main :: IO ()
 main = do
   let pokemon = Pokemon "Bulbasaur" ["Grass", "Poison"]
-      mosseNemiche = [Mossa "Ember" "Fire" 40, Mossa "Water Gun" "Water" 40]
-      tabellaDebolezze = Map.fromList [ (("Grass", "Fire"), 2.0), (("Grass", "Water"), 0.5)
-                                      , (("Poison", "Fire"), 1.0), (("Poison", "Water"), 1.0) ]
+      mosseNemiche = [Mossa "Water Gun" "Water" 40, ]
+
+      tabellaDebolezze = Map.fromList [ (("Grass", "Fire"), 2.0), ]
+
       dannoTotale = calcolaDannoTotale pokemon mosseNemiche tabellaDebolezze
   putStrLn $ "Danno totale: " ++ show dannoTotale
 
