@@ -13,3 +13,6 @@ Through these challenges, you will deepen your understanding of what makes games
 
 ### Challenge 1: Pokémon MDA Analysis Challenge
 Description: Pokémon MDA Analysis Challenge is an exercise focused on applying the Mechanics, Dynamics, and Aesthetics (MDA) framework to analyze a Pokémon game of your choice.
+
+### Challenge 2: Develop an RPG game
+Description: Develop a simple RPG game using [Open RPG Maker](https://sourceforge.net/projects/openrpgmaker/) or [Construct 3](https://www.construct.net/en). If possible, include a story.
