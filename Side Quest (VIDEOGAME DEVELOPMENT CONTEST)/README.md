@@ -1,9 +1,7 @@
-# Side Quests
+# Side Quest (Videogame Development Contest)
 
 ## Overview
-This section does not help you reach the medals quota for the Lega Hacktoberfest, instead here you can take part in a challenge to boost your ability to work in a team and create real projects.
-
-## Challenge
+This section does not help you reach the medals quota for the Lega Hacktoberfest, instead here you can take part in a challenge to boost your ability to work in a team and create real projects to take part in a National Videogame Development contest.
 Following the information and guidelines available [here](https://www.mimit.gov.it/it/incentivi/italiangame2025), form a group with your friends and colleagues (remember filling all the necessary roles, e.g. Game Designer(s), Game Artist(s), Sound Engineer(s), Software Developer(s)), create a project proposal and a project presentation, at the end of the hackathon your team will come on stage to present the project idea.
 We will support the best ideas during the development and submission to the contest.
 
