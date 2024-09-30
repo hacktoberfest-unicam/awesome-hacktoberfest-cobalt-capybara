@@ -14,3 +14,6 @@ By the end, you’ll be equipped to transform your ideas into fully functional a
 
 ### Challenge 1: Pokémon Themed Web Development
 Description: You will create a simple Pokémon-themed webpage that includes basic HTML, CSS, and JavaScript to ensure you're comfortable with these fundamental technologies.
+
+### Challenge 2: Pokedex implementation
+Description: Complete the second challenge of the Palestra di Donald Norman by implementing the mockup you previously designed.
