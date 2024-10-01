@@ -16,5 +16,5 @@ The primary objective of this category is to:
 **Objective:** The goal of this challenge is to develop your ability to manage program flow using loops and conditionals, while building an inventory system. You'll practice adding, removing, and updating items in data structures like lists or dictionaries, improving your skills in state management and imperative programming.
 
 ### Challenge 2: Pokemon Battle
-**Description:** You'll create a program that simulates a turn-based battle between two Pokémon. The focus is on using loops and conditional statements to manage the battle flow, where each Pokémon takes turns attacking until one faints.
+**Description:** You'll create a program that simulates a turn-based battle between two Pokémon. The focus is on using loops and conditional statements to manage the battle flow, where each Pokémon takes turns attacking until one faints. <br>
 **Objective:** The goal is to apply fundamental programming concepts like loops and conditionals to simulate a Pokémon battle, while practicing writing clean and well-structured code.
