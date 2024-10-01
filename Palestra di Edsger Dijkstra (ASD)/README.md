@@ -28,11 +28,11 @@ These challenges focus on sorting algorithms, which are fundamental for optimizi
   - **Objective**: Learn and compare the efficiency of different sorting algorithms.
 
 ### Miscellaneus
-**Challenge 2: Pokémon Battle Damage Calculation**
-- **Description**
-In this challenge, you will implement an algorithm to calculate the damage dealt in a Pokémon battle using various data structures to represent Pokémon attributes and moves. You will create classes or structures to manage Pokémon information, including attack power, defense stats, and type advantages, and evaluate the effectiveness of moves to compute the resulting damage.
-- **Objective**: The goal of this challenge is to: <br>
-Utilize appropriate data structures (e.g., classes, dictionaries, or lists) to store and manage Pokémon attributes and move information.
-Apply mathematical algorithms to determine damage in a battle scenario based on attributes like attack, defense, and type advantages.
-Develop problem-solving skills by implementing algorithms that require logical reasoning and data manipulation.
+- **Challenge 2: Pokémon Battle Damage Calculation**
+  - **Description**
+  In this challenge, you will implement an algorithm to calculate the damage dealt in a Pokémon battle using various data structures to represent Pokémon attributes and moves. You will create classes or structures to manage Pokémon information, including attack power, defense stats, and type advantages, and evaluate the effectiveness of moves to compute the resulting damage.
+  - **Objective**: The goal of this challenge is to: <br>
+  Utilize appropriate data structures (e.g., classes, dictionaries, or lists) to store and manage Pokémon attributes and move information.
+  Apply mathematical algorithms to determine damage in a battle scenario based on attributes like attack, defense, and type advantages.
+  Develop problem-solving skills by implementing algorithms that require logical reasoning and data manipulation.
 
