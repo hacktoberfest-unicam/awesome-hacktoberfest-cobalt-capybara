@@ -16,7 +16,7 @@ This gym offers a range of challenges designed to enhance your understanding of 
 ### Research Challenges
 These challenges will help you learn and implement various search algorithms. You'll explore both basic and advanced techniques for efficiently locating elements within data structures.
 
-- **Challenge 2: Pokémon Search in Pokedex**
+- **Challenge 1: Pokémon Search in Pokedex**
   - **Description**: Implement a search algorithm to find a specific Pokémon in a Pokedex.
   - **Objective**: Apply search algorithms to structured data and understand their efficiency.
 
