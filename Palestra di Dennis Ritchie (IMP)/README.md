@@ -20,5 +20,5 @@ The primary objective of this category is to:
 **Objective:** The goal is to apply fundamental programming concepts like loops and conditionals to simulate a Pokémon battle, while practicing writing clean and well-structured code.
 
 ### Challenge 3: Pokémon Trading System
-**Description:** In this challenge, you will develop a simple program that simulates a trading system for Pokémon. You will manage trainers and their Pokémon inventories, allowing for the addition, removal, and trading of Pokémon.
+**Description:** In this challenge, you will develop a simple program that simulates a trading system for Pokémon. You will manage trainers and their Pokémon inventories, allowing for the addition, removal, and trading of Pokémon. <br>
 **Objective:** The goal is to enhance your understanding of data management and program flow control using loops and conditionals while practicing state management through the trading interactions between trainers.
