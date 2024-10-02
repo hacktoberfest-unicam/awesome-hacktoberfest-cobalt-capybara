@@ -1,0 +1,6 @@
+- gruppi da 3,4 persone
+- classifica su un foglio excel ?
+- classifica temporanea dopo pranzo ?
+- assegnare punti anche ai sanity check
+- le pull request devono essere smaltite entro fine giornata?
+- ci sono abbastanza challenge nella repo?
