@@ -3,7 +3,7 @@
 
 # Awesome Hacktoberfest Cadmium Capibara
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hacktoberfest-unicam/awesome-hacktoberfest-cadmium-capibara/main/.github/img/A681815C1E380FC8440CBD7EE77F5F8DD010DBD4DE69098C849CFC1CB214A5EC.jpeg" height="300">
+  <img src="https://raw.githubusercontent.com/hacktoberfest-unicam/awesome-hacktoberfest-cadmium-capibara/main/.github/img/cobalt_capybara.png" height="300">
 </p>
 <p align="center">
   Repository dell'hackathon: Unicam Hacktoberfest v5.0 (code name: Cadmium Capibara) 2024, evento di natura informatica che ha lo scopo di unire e far divertire le persone mediante la conoscenza dell'Open Source nella sede universitaria di Camerino. 
