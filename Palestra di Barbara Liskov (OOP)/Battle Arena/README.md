@@ -58,7 +58,7 @@ You can choose to implement the solution in any of the following programming lan
    - Expand the system to allow multiple Pokémon on each side, such as in double battles.
 
 ## Code Structure
-Create a file to hold your implementation (e.g., `battle.py` for Python, `Battle.java` for Java). 
+Create a file for your implementation (e.g., `battle.py` for Python, `Battle.java` for Java). 
 Structure the code into logical blocks that handle Pokémon creation, move definitions, and battle logic.
 
 ### Function Signatures
