@@ -61,48 +61,6 @@ You can choose to implement the solution in any of the following programming lan
 Create a file for your implementation (e.g., `battle.py` for Python, `Battle.java` for Java). 
 Structure the code into logical blocks that handle Pokémon creation, move definitions, and battle logic.
 
-### Function Signatures
-Ensure your methods follow the signature for your chosen language. Here are some general guidelines:
-- **Python:**
-  ```python
-  class Pokemon:
-      def __init__(self, name, type, hp, moves):
-          # Initialization code
-
-      def attack(self, target, move):
-          # Attack code
-
-      def defend(self, damage):
-          # Defend code
-
-  class Battle:
-      def startBattle(self, pokemon1, pokemon2):
-          # Battle logic
-  ```
-- **Java:**
-  ```java
-  public class Pokemon {
-      private String name;
-      private String type;
-      private int hp;
-      private List<Move> moves;
-
-      public void attack(Pokemon target, Move move) {
-          // Attack code
-      }
-
-      public void defend(int damage) {
-          // Defend code
-      }
-  }
-
-  public class Battle {
-      public void startBattle(Pokemon pokemon1, Pokemon pokemon2) {
-          // Battle logic
-      }
-  }
-  ```
-
 ## Testing
 - Write test cases to simulate different battle scenarios (e.g., Fire vs. Water Pokémon, weak vs. strong moves).
 - Test your classes to ensure damage calculation is correct and the battle proceeds as expected.
