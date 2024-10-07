@@ -19,18 +19,18 @@ Hackathon Repository: Unicam Hacktoberfest v5.0 2024 (code name: Cobalt Capybara
 ---
 
 ## Gyms
-- **Palestra di Edsger Dijkstra (ASD)**
-- **Palestra di Dennis Ritchie (IMP)**
-- **Palestra di Barbara Liskov (OOP)**
-- **Palestra di Haskell Curry (FUN)**
-- **Palestra di Donald Norman (UI/UX)**
-- **Palestra di Shigeru Miyamoto (GAME DEV)**
-- **Palestra di Tim Berners-Lee (WEB DEV)**
+- [**Palestra di Edsger Dijkstra (ASD)**](./Palestra%20di%20Edsger%20Dijkstra%20(ASD))
+- [**Palestra di Dennis Ritchie (IMP)**](./Palestra%20di%20Dennis%20Ritchie%20(IMP))
+- [**Palestra di Barbara Liskov (OOP)**](./Palestra%20di%20Barbara%20Liskov%20(OOP))
+- [**Palestra di Haskell Curry (FUN)**](./Palestra%20di%20Haskell%20Curry%20(FUN))
+- [**Palestra di Donald Norman (UI/UX)**](./Palestra%20di%20Donald%20Norman%20(UI%5CUX))
+- [**Palestra di Shigeru Miyamoto (GAME DEV)**](./Palestra%20di%20Shigeru%20Miyamoto%20(GAME%20DEV))
+- [**Palestra di Tim Berners-Lee (WEB DEV)**](./Palestra%20di%20Tim%20Berners-Lee%20(WEB%20DEV))
 
 ## Secret Routes
-- **Logo Contest**
-- **Social Challenge**
-- **Video Game Development Contest**
+- [**Logo Contest**](./Secret%20Route%20(LOGO%20CONTEST))
+- [**Social Challenge**](./Secret%20Route%20(SOCIAL%20CHALLENGE))
+- [**Video Game Development Contest**](./Secret%20Route%20(VIDEOGAME%20DEVELOPMENT%20CONTEST))
 
 ### How to fork
 * Once you're on the repository page, you will see a button in the upper right-hand corner that says "Fork." Click it.
@@ -64,7 +64,7 @@ Hackathon Repository: Unicam Hacktoberfest v5.0 2024 (code name: Cobalt Capybara
   git commit -m "[remove] Removed file1.py because it is no longer used"
   ```
 
-### How to update your changes into your repo on github
+### How to update your changes into your repo on GitHub
 * Push your branch with the new commit(s) to your fork on GitHub:
   ```
   git push origin [branch_name]
@@ -74,4 +74,4 @@ Hackathon Repository: Unicam Hacktoberfest v5.0 2024 (code name: Cobalt Capybara
 * Go to your fork on GitHub and switch to the branch you just pushed.
 * Click on the "New Pull Request" button. GitHub will guide you through creating a pull request. Make sure your pull request is pointing to the `hackathon` branch. Provide a clear title and description for your changes.
 
-NOTE: check your Pull Request because during the review process we may comment it to request changes or fixes.
+NOTE: check your Pull Request because during the review process, we may comment on it to request changes or fixes.
