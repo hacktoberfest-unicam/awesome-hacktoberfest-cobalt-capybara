@@ -16,17 +16,17 @@ These challenges will help you learn and implement various search algorithms. Yo
 These challenges focus on sorting algorithms, which are fundamental for optimizing data manipulation and retrieval operations.
 
 ### Challenge 1: Pokémon Search in Pokedex
-**Description**: Implement a search algorithm to find a specific Pokémon in a Pokedex.
+**Description**: Implement a search algorithm to find a specific Pokémon in a Pokedex.<br/>
 **Objective**: Apply search algorithms to structured data and understand their efficiency.
 
 
 ### Challenge 2: Sorting Pokémon by Health Points
-**Description**: Implement various sorting algorithms (e.g., Bubble Sort, Merge Sort) to sort a list of Pokémon based on their health points.
+**Description**: Implement various sorting algorithms (e.g., Bubble Sort, Merge Sort) to sort a list of Pokémon based on their health points.<br/>
 **Objective**: Learn and compare the efficiency of different sorting algorithms.
 
 ### Challenge 3: Pokémon Battle Damage Calculation
 **Description**
-  In this challenge, you will implement an algorithm to calculate the damage in a Pokémon battle using various data structures to represent Pokémon attributes and moves. You will create classes or structures to manage Pokémon information, including attack power, defence stats, and type advantages, and evaluate the effectiveness of moves to compute the resulting damage.
+  In this challenge, you will implement an algorithm to calculate the damage in a Pokémon battle using various data structures to represent Pokémon attributes and moves. You will create classes or structures to manage Pokémon information, including attack power, defence stats, and type advantages, and evaluate the effectiveness of moves to compute the resulting damage.<br/>
 **Objective**: The goal of this challenge is to: <br>
   Utilize appropriate data structures (e.g., classes, dictionaries, or lists) to store and manage Pokémon attributes and move information.
   Apply mathematical algorithms to determine damage in a battle scenario based on attributes like attack, defence, and type advantages.
