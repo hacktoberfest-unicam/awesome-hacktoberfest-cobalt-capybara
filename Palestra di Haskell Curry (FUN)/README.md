@@ -12,10 +12,13 @@ By the end of the workshop, you will be prepared to build robust and maintainabl
 ## Challenges
 
 ### Challenge 1: Sanity check
-Description: You will implement a basic functional programming task. Specifically, you will create a function that performs operations on a list of integers. 
+**Description**: You will implement a basic functional programming task. Specifically, you will create a function that performs operations on a list of integers. <br/>
+**Objective**: Get acquainted with a Functional Programming language
 
 ### Challenge 2: Pokémon Damage Calculator
-Description: The primary objective of this challenge is to implement a function that calculates the total damage a Pokémon would suffer from a list of enemy moves, taking into account the Pokémon's type weaknesses.
+**Description**: The primary objective of this challenge is to implement a function that calculates the total damage a Pokémon would suffer from a list of enemy moves, taking into account the Pokémon's type weaknesses.<br/>
+**Objective**: Learn how to use and interact with the functional programming data structures, implement functions and manipulate data with higher-order functions.
 
 ### Challenge 3: Pokédex Filter
-Description: Use higher-order functions (e.g., filter, map) to obtain a list of Pokémon of a certain type.
+**Description**: Use higher-order functions (e.g., filter, map) to obtain a list of Pokémon of a certain type.<br/>
+**Objective**: Learn how to use higher-order functions to manipulate data on a list.
