@@ -16,7 +16,6 @@ You can choose to implement the solution in any of the following programming lan
 - C#
 - C++
 - Python
-- PHP
 
 ## Instructions
 

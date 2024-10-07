@@ -6,7 +6,7 @@ Welcome to the Pokémon Evolution System Challenge! In this challenge, you will 
 ## Objective
 The primary objective of this challenge is to understand and apply the concepts of inheritance and polymorphism. By the end of this challenge, you should be able to:
 - Define base and derived classes.
-- Implement methods that demonstrate polymorphic behavior.
+- Implement methods that demonstrate polymorphic behaviour.
 - Create a system that evolves Pokémon based on their level.
 
 ## Accepted Languages
@@ -16,7 +16,6 @@ You can choose to implement the solution in any of the following programming lan
 - C#
 - C++
 - Python
-- PHP
 
 ## Instructions
 1. **Setup the Environment:**
