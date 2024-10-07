@@ -24,18 +24,4 @@ You can use to implement the solution the following programming language:
   - Your implementation file.
   - `README.md` (this file).
 
-## Template (Haskell)
-```haskell
-type Pokemon = (String, String)
-
--- Sample list of Pokémon (name, type)
-pokemons :: [Pokemon]
-pokemons = [ ("Bulbasaur", "Grass")
-           , ("Charmander", "Fire")
-           , ("Squirtle", "Water")
-           , ("Pikachu", "Electric")
-           , ("Oddish", "Grass")
-           ]
-
--- Add your solution below
 

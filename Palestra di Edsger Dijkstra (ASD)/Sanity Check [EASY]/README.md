@@ -27,25 +27,7 @@ In this challenge, you will implement a basic sorting algorithm of your choice. 
    - Create a file for your implementation (e.g., `bubble_sort.py` for Python, `SelectionSort.java` for Java).
    - Implement the sorting algorithm clearly and correctly.
 
-4. **Function Signatures:**
-   - Ensure your method follows the signature for your chosen language. Examples:
-     - **Python (Bubble Sort):**
-       ```python
-       def bubble_sort(arr):
-           # Sorting code
-           return arr
-       ```
-     - **Java (Selection Sort):**
-       ```java
-       public class SelectionSort {
-           public static int[] sort(int[] arr) {
-               // Sorting code
-               return arr;
-           }
-       }
-       ```
-
-5. **Testing:**
+4. **Testing:**
    - Create test cases to validate your sorting algorithm.
    - Ensure your implementation handles edge cases, such as an empty list, a list with one element, and a list with all identical elements.
 

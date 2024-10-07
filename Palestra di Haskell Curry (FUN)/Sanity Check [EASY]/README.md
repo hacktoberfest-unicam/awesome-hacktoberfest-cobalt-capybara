@@ -31,38 +31,7 @@ In this challenge, you will implement a basic functional programming task. Speci
    - Create a file for your implementation (e.g., `functional_programming.py` for Python, `FunctionalProgramming.java` for Java).
    - Implement the function in this file.
 
-4. **Function Signatures:**
-   - Ensure your function follows the signature for your chosen language. Examples:
-     - **Python:**
-       ```python
-       def sum_of_squares(numbers: list) -> int:
-           # Implementation code
-
-       def filter_even(numbers: list) -> list:
-           # Implementation code
-       ```
-     - **Java:**
-       ```java
-       public static int sumOfSquares(List<Integer> numbers) {
-           // Implementation code
-       }
-
-       public static List<Integer> filterEven(List<Integer> numbers) {
-           // Implementation code
-       }
-       ```
-     - **JavaScript:**
-       ```javascript
-       function sumOfSquares(numbers) {
-           // Implementation code
-       }
-
-       function filterEven(numbers) {
-           // Implementation code
-       }
-       ```
-
-5. **Testing:**
+4. **Testing:**
    - Create test cases to validate your function.
    - Ensure that your implementation handles edge cases, such as an empty list.
 
