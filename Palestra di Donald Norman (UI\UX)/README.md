@@ -1,7 +1,7 @@
 # Palestra di Donald Norman (UI/UX)
 
 ## Overview
-Welcome to the **Palestra di Donald Norman**, a dedicated space to master the art of creating beautiful, useful and engaging User Interfaces (UIs) and User eXperiences (UXs). Named in onor of Donald Norman, the "father of UX".
+Welcome to the Palestra di Donald Norman, a dedicated space to master the art of creating beautiful, useful and engaging User Interfaces (UIs) and User eXperiences (UXs). Named in onor of Donald Norman, the "father of UX".
 
 ## Objective
 The primary objectives of these challenges are to:
