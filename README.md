@@ -6,7 +6,8 @@
   <img src=".github/img/cobalt_capybara.png" height="300">
 </p>
 <p align="center">
-Hackathon Repository: Unicam Hacktoberfest v5.0 2024 (code name: Cobalt Capybara), a computer science event aimed at bringing people together and providing fun through the discovery of Open Source at the University of Camerino campus.
+Hackathon Repository: Unicam Hacktoberfest v5.0 2024 (code name: Cobalt Capybara), a computer science event aimed at bringing people together and fostering collaboration and creativity through the discovery of Open Source at the University of Camerino campus.
+
   <br>
   <b>
       <a href="https://www.unicam.it/">Unicam</a> • 
@@ -17,19 +18,19 @@ Hackathon Repository: Unicam Hacktoberfest v5.0 2024 (code name: Cobalt Capybara
 
 ---
 
-### Gyms
-- Palestra di Edsger Dijkstra (ASD)
-- Palestra di Dennis Ritchie (IMP)
-- Palestra di Barbara Liskov (OOP)
-- Palestra di Haskell Curry (FUN)
-- Palestra di Donald Norman (UI/UX)
-- Palestra di Shigeru Miyamoto (GAME DEV)
-- Palestra di Tim Barners-Lee (WEB DEV)
+## Gyms
+- **Palestra di Edsger Dijkstra (ASD)**
+- **Palestra di Dennis Ritchie (IMP)**
+- **Palestra di Barbara Liskov (OOP)**
+- **Palestra di Haskell Curry (FUN)**
+- **Palestra di Donald Norman (UI/UX)**
+- **Palestra di Shigeru Miyamoto (GAME DEV)**
+- **Palestra di Tim Berners-Lee (WEB DEV)**
 
 ## Secret Routes
-- Logo Contest
-- Social Challenge
-- Video Game Development Contest
+- **Logo Contest**
+- **Social Challenge**
+- **Video Game Development Contest**
 
 ### How to fork
 * Once you're on the repository page, you will see a button in the upper right-hand corner that says "Fork." Click it.

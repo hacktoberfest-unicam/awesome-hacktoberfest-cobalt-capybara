@@ -1,12 +1,12 @@
 # Secret Route (SOCIAL CHALLENGE)
 
 ## Overview
-This section does not help you reach the medals quota for the Lega Hacktoberfest, instead here you can take part in a social challenge where you can show your Hacktoberfest spirit. 
-With this simple quests you can interact with the Hacktoberfest community and let anyone know you are taking part in this international event.
-These challenges may seem simple, but you’ll need sharp observational skills and the guts to capture the best moments of the day (and the faces of the professors).
+This section does not contribute towards the medals quota for the Lega Hacktoberfest, but instead offers a fun social challenge where you can showcase your Hacktoberfest spirit! These simple quests encourage interaction with the Hacktoberfest community, letting everyone know you're part of this international event.
 
-We’ve hidden around campus {random number} statues that look more or less like {object description}. The 3 most observant teams who find the hidden objects and post an IG story tagging @todo_associazione, @unicamente_informatica, and @hacktoberfest can win the found object and bonus points, which will help them climb the leaderboard.
+The challenges may seem easy, but you’ll need sharp observational skills and the courage to capture the best moments of the day—including some sneaky photos of the professors!
 
-Additionally, by using your spy and paparazzi skills, if you manage to sneak a selfie with professors Barbara Re, Michele Loreti, Lorenzo Rossi, Andrea Morichetta, or Fausto Marcantoni and post it as an IG story tagging @todo_associazione and @unicamente_informatica, you can earn “spy points” to secretly rise up the leaderboard.
+We’ve hidden around campus (Polo B) **three statues** that resemble **pokémon**. The 3 most observant teams that find these hidden objects and post an Instagram story tagging **@todo_associazione**, **@unicamente_informatica**, and **@hacktoberfest** will win the found object.
 
-Lastly, to start the challenge on the right foot, post an IG story of the medal board showing your first earned medal and tag @todo_associazione, @unicamente_informatica, and all team members. Before heading to the long-awaited refreshment break, after earning the participation medal at the end of the event, post a new story, and with these last-minute points, you might flip the podium standings.
+Additionally, use your spy and paparazzi skills! If you manage to sneak a selfie with one of the following professors—**Barbara Re, Michele Loreti, Lorenzo Rossi, Andrea Morichetta, or Fausto Marcantoni**—and post it as an Instagram story tagging **@todo_associazione** and **@unicamente_informatica**.
+
+Lastly, to kick off the challenge on the right foot, post an Instagram story of the medal board showing your first earned medal and tag **@todo_associazione**, **@unicamente_informatica**, and all team members. Don’t forget, before heading to the refreshment break at the end of the event, after earning the participation medal, post one last story.

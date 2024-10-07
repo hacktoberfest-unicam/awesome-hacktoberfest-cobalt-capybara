@@ -1,29 +1,30 @@
 # Side Quest (Videogame Development Contest)
 
 ## Overview
-This section does not help you reach the medals quota for the Lega Hacktoberfest, instead here you can take part in a challenge to boost your ability to work in a team and create real projects to take part in a National Videogame Development contest.
-Following the information and guidelines available [here](https://www.mimit.gov.it/it/incentivi/italiangame2025). Form a group with your friends and colleagues, ensuring all necessary roles are filled (e.g., Game Designer(s), Game Artist(s), Sound Engineer(s), Software Developer(s)). Create a project proposal and presentation. At the end of the hackathon, your team will present the project idea on stage.
-We will support the best ideas during the development and submission to the contest.
+This section does not contribute toward the medals quota for the Lega Hacktoberfest, but offers an exciting challenge to enhance your teamwork skills and create real projects for a National Videogame Development contest. Your mission is to form a team and create a project proposal to participate in the **[Italian Game 2025 Contest](https://www.mimit.gov.it/it/incentivi/italiangame2025)**.
 
-If you don't have any ideas but are willing to work on someone else's project and can't find an open group, add yourself to the following list. 
-Remember to provide a list of skills, tools and languages you can use, so that teams can choose wisely to cover missing positions.
+Form a group with friends and colleagues, ensuring all key roles are covered (e.g., Game Designer(s), Game Artist(s), Sound Engineer(s), Software Developer(s)). Your team will work on a project idea, prepare a presentation, and present it on stage at the end of the hackathon.
+
+We will support the best project ideas during the development phase and the submission to the contest.
+
+If you don't have a project idea but are eager to work on someone else's team, or if you're looking for teammates, add yourself to the following **Open Group List**. Make sure to include your skills, tools, and programming languages so that teams can find the right match for their project.
 
 ## Looking for Open Project Groups:
-- Jhon Doe (jhon.doe@nottruemail.com)
-  - Soft/Other Skills: Problem Solving, Teamwork, TRPG player
-  - Languages: Java, Python, C#
-  - Tools: ChatGPT, Unity, Blender, Figma, FL Studio
+- **John Doe** (john.doe@nottruemail.com)
+  - **Soft/Other Skills**: Problem Solving, Teamwork, TRPG player
+  - **Languages**: Java, Python, C#
+  - **Tools**: ChatGPT, Unity, Blender, Figma, FL Studio
 
 ## Project Groups:
-- Team Name: Sample Team 1 Name
-  - Brief Project Description: Your project's idea description
-  - Looking for:
+- **Team Name**: Sample Team 1 Name
+  - **Brief Project Description**: Your project's idea description
+  - **Looking for**:
     - 1 x Software Developer
-    - 2 x Sound Engineer
+    - 2 x Sound Engineers
     - 1 x Game Artist
-  - Reference contact information: Name Surname (name.surname@studenti.unicam.it)
-- Team Name: Sample Team 2 Name
-  - Brief Project Description: Your project's idea description
-  - Looking for: None (Group Completed)
-  - Reference contact information: Name2 Surname2 (name2.surname2@unicam.it)
- 
+  - **Reference Contact**: Name Surname (name.surname@studenti.unicam.it)
+  
+- **Team Name**: Sample Team 2 Name
+  - **Brief Project Description**: Your project's idea description
+  - **Looking for**: None (Group Completed)
+  - **Reference Contact**: Name2 Surname2 (name2.surname2@unicam.it)
