@@ -2,7 +2,7 @@
 
 ## Overview
 This section does not help you reach the medals quota for the Lega Hacktoberfest, instead here you can take part in a challenge to boost your ability to work as a graphic designer and 3D model creator.
-The #TODO Student Union and the Computer Science department are in desperate need of an awesome logo, your only task in this gym is to create a logo or a mascot that represents either #TODO or Computer Science.
+The #TODO Student Union and the Computer Science department would love an awesome logo, your only task is to create a logo or a mascot which represents either #TODO or Computer Science.
 At the end of the Hackathon, the teams that present the best 3 logos for Computer Science and/or #TODO will be awarded a special gift.
 Valid file submissions are 2D Sprites and Images and 3D printable models. We will try to 3D print the best 3D model.
 
