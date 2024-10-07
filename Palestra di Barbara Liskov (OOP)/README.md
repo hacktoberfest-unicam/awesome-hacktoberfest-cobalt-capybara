@@ -1,7 +1,7 @@
 # Palestra di Barbara Liskov (OOP)
 
 ## Overview
-Welcome to the **Palestra di Barbara Liskov**, a dedicated space for honing your Object-Oriented Programming (OOP) skills. These challenges are inspired by the pioneering work of Barbara Liskov, a renowned computer scientist who has significantly contributed to the principles and practice of OOP.
+Welcome to the Palestra di Barbara Liskov, a dedicated space for honing your Object-Oriented Programming (OOP) skills. These challenges are inspired by the pioneering work of Barbara Liskov, a renowned computer scientist who has significantly contributed to the principles and practice of OOP.
 
 ## Objective
 The primary objective of this OOP gym is to help you:

@@ -1,7 +1,7 @@
 # Palestra di Dennis Ritchie - Imperative Programming (IMP)
 
 ## Overview
-Welcome to the **Palestra di Dennis Ritchie**, a dedicated space for mastering the art of Imperative Programming (IMP). Named in honor of Dennis Ritchie, the co-creator of the C programming language and a pioneer of imperative programming, this category is designed to help you develop a deep understanding of programming paradigms that focus on explicitly describing the steps your code should take to achieve a desired outcome.
+Welcome to the Palestra di Dennis Ritchie, a dedicated space for mastering the art of Imperative Programming (IMP). Named in honor of Dennis Ritchie, the co-creator of the C programming language and a pioneer of imperative programming, this category is designed to help you develop a deep understanding of programming paradigms that focus on explicitly describing the steps your code should take to achieve a desired outcome.
 
 ## Objective
 The primary objectives of this category are to:
