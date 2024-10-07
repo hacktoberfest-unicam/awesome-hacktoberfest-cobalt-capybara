@@ -2,7 +2,7 @@
 
 ## Overview
 This section does not help you reach the medals quota for the Lega Hacktoberfest, instead here you can take part in a challenge to boost your ability to work in a team and create real projects to take part in a National Videogame Development contest.
-Following the information and guidelines available [here](https://www.mimit.gov.it/it/incentivi/italiangame2025), form a group with your friends and colleagues (remember filling all the necessary roles, e.g. Game Designer(s), Game Artist(s), Sound Engineer(s), Software Developer(s)), create a project proposal and a project presentation, at the end of the hackathon your team will come on stage to present the project idea.
+Following the information and guidelines available [here](https://www.mimit.gov.it/it/incentivi/italiangame2025). Form a group with your friends and colleagues, ensuring all necessary roles are filled (e.g., Game Designer(s), Game Artist(s), Sound Engineer(s), Software Developer(s)). Create a project proposal and presentation. At the end of the hackathon, your team will present the project idea on stage.
 We will support the best ideas during the development and submission to the contest.
 
 If you don't have any ideas but are willing to work on someone else's project and can't find an open group, add yourself to the following list. 
