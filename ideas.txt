@@ -1,6 +1,0 @@
-- gruppi da 3,4 persone? gruppi da 3!
-- classifica su un foglio excel ? sta il sito
-- classifica temporanea dopo pranzo ? classifica live tutto il giorno e freeze last hh per effetto suspanse
-- assegnare punti anche ai sanity check? non esistono piu le sanity, erano too much ridondanti
-- le pull request devono essere smaltite entro fine giornata? ovviamente si
-- ci sono abbastanza challenge nella repo? si
