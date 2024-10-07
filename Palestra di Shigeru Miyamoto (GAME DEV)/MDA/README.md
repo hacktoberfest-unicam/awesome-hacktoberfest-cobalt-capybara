@@ -24,12 +24,4 @@ You can choose to implement the solution in any of the following file type:
 - Ensure your repository includes the following files:
   - Your solution file.
   - `README.md` (this file).
-  
-## Example
-```txt
-MDA Framework analisys on "Pokemon Black & White"
-Mechanics:
 
-Dynamics:
-
-Aesthetics:
