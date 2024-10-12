@@ -12,14 +12,10 @@ The primary objectives of this category are to:
 
 ## Challenges
 
-### Challenge 1: Item Inventory
-**Description**: Welcome to the Item Inventory Management Challenge! In this exercise, you will create a system to manage an inventory of items such as potions, Pokéballs, and other in-game objects.  
-**Objective**: The goal of this challenge is to develop your ability to manage program flow using loops and conditionals while building an inventory system. You'll practice adding, removing, and updating items in data structures like lists or dictionaries, improving your skills in state management and imperative programming.
-
-### Challenge 2: Pokémon Battle
+### Challenge 1: Pokémon Battle
 **Description**: In this challenge, you’ll create a program that simulates a turn-based battle between two Pokémon. The focus is on using loops and conditional statements to manage the battle flow, where each Pokémon takes turns attacking until one faints.  
 **Objective**: The goal is to apply fundamental programming concepts like loops and conditionals to simulate a Pokémon battle, while practicing writing clean and well-structured code.
 
-### Challenge 3: Pokémon Trading System
+### Challenge 2: Pokémon Trading System
 **Description**: In this challenge, you will develop a simple program that simulates a trading system for Pokémon. You will manage trainers and their Pokémon inventories, allowing for the addition, removal, and trading of Pokémon.  
 **Objective**: The goal is to enhance your understanding of data management and program flow control using loops and conditionals while practicing state management through the trading interactions between trainers.
