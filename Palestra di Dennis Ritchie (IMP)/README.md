@@ -19,3 +19,7 @@ The primary objectives of this category are to:
 ### Challenge 2: Pokémon Trading System
 **Description**: In this challenge, you will develop a simple program that simulates a trading system for Pokémon. You will manage trainers and their Pokémon inventories, allowing for the addition, removal, and trading of Pokémon.  
 **Objective**: The goal is to enhance your understanding of data management and program flow control using loops and conditionals while practicing state management through the trading interactions between trainers.
+
+### Challenge 3: Pokemon Level Check
+**Description**: In this challenge, you will develop a simple program that checks the pokemon level and divides them between even and odd levelled Pokémons.
+**Objective**: The goal is to enhance your understanding of array management, if conditions and loops.
