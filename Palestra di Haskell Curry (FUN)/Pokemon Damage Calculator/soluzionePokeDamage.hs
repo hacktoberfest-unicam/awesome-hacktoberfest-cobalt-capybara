@@ -5,7 +5,7 @@ data Type = Normal | Fire | Water | Grass | Electric | Ice | Fighting | Poison |
 -- Define the weaknesses table as a function that returns a damage multiplier
 weaknessMultiplier :: Type -> Type -> Double
 weaknessMultiplier Normal    Fighting = 2.0
-weaknessMultiplier Normal    Ghost    = 0.0
+weaknessMultiplier Normal    Ghost    = 0.1
 weaknessMultiplier Fire      Water    = 2.0
 weaknessMultiplier Fire      Grass    = 0.5
 weaknessMultiplier Fire      Ice      = 0.5
@@ -17,7 +17,7 @@ weaknessMultiplier Grass     Fire     = 2.0
 weaknessMultiplier Grass     Water    = 0.5
 weaknessMultiplier Grass     Grass    = 0.5
 weaknessMultiplier Grass     Ice      = 2.0
-weaknessMultiplier Electric  Ground   = 0.0
+weaknessMultiplier Electric  Ground   = 0.1
 weaknessMultiplier Electric  Water    = 0.5
 -- I don't know all the combination... soooooo here a default function at the end ;)
 weaknessMultiplier _         _        = 1.0
