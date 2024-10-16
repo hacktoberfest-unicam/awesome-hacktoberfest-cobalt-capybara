@@ -11,6 +11,7 @@ def bubble_sort(pokemons):
                 pokemons[i], pokemons[j] = pokemons[j], pokemons[i]
     return pokemons
 
+
 # ------------------------
 pokemons = [
     {"name": "Pikachu", "hp": 35},
@@ -33,6 +34,7 @@ def test_empty(sort_function):
 
 def test_one(sort_function):
     assert sort_function([{"name": "Squirtle", "hp": 44}]) == [{"name": "Squirtle", "hp": 44}]
+
 
 def test_descending_order(sort_function, pokemons):
     reversed = sorted(pokemons, key=lambda pokemon: pokemon["hp"], reverse=True)

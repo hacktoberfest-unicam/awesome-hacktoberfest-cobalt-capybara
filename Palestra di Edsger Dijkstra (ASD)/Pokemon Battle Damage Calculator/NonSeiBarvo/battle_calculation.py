@@ -35,7 +35,7 @@ def test_battle():
     charizard = Pokemon("charizard", "fuoco", 100, 40, [])
     carnivine = Pokemon("CARNIVINE", "erba", 50, 60, [])
     damage = charizard.calculate_damage(carnivine)
-    assert damage == (40*1.5)
+    assert damage == (40 * 1.5)
     print(f"{charizard.name} deals {damage} damage to {carnivine.name}!")
 
     torterra = Pokemon("torterra", "erba", 60, 110, [])
@@ -43,11 +43,11 @@ def test_battle():
     assert damage == 0
     print(f"{charizard.name} deals {damage} damage to {torterra.name}!")
 
-
     pikachu = Pokemon("pikachu", "elettro", 55, 40, [{"move_name": "Thunderbolt", "power": 40}])
-    charmander  = Pokemon("charmander ", "fuoco", 52, 43, [{"move_name": "Ember", "power": 40}])
+    charmander = Pokemon("charmander ", "fuoco", 52, 43, [{"move_name": "Ember", "power": 40}])
     damage = pikachu.calculate_damage(charmander)
-    assert damage == (55-43)
+    assert damage == (55 - 43)
     print(f"{pikachu.name} deals {damage} damage to {charmander.name}!")
+
 
 test_battle()
