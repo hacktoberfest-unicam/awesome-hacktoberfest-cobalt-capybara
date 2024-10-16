@@ -12,7 +12,11 @@ def main():
         {"id": 4, "name": "Charmander"},
     ]
 
-    pkmnSearched = "Charmander"
+    print("Pokedex: ")
+    for pokemon in pokedex:
+        print(pokemon['name'])
+
+    pkmnSearched = input("Pokemon to search: ")
     result = searchPokemon(pokedex, pkmnSearched)
     if (result == None):
         print("Pokemon not found")
