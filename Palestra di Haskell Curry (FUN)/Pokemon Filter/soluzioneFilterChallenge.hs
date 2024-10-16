@@ -1,5 +1,5 @@
 -- Define the possible Pokémon types
-data Type = Normal | Fire | Water | Grass | Electric | Ice | Fighting | Poison | Ground | Flying | Psychic | Bug | Rock | Ghost | Dragon | Dark | Steel | Fairy
+data Type = Normal | Fire | Water | Grass | Electric | Ice
     deriving (Show, Eq)
 
 -- Define a Pokemon with a type, HP, and possibly other stats

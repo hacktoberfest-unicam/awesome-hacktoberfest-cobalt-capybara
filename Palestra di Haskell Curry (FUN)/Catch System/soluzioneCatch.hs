@@ -1,14 +1,15 @@
-import System.Random (randomRIO) --to simulate the random catch feature
+-- To simulate the random catch feature
+import System.Random (randomRIO)
 
 -- Define the possible Pokémon types
-data Type = Normal | Fire | Water | Grass | Electric | Ice | Fighting | Poison | Ground | Flying | Psychic | Bug | Rock | Ghost | Dragon | Dark | Steel | Fairy
+data Type = Normal | Fire | Water | Grass | Electric | Ice
     deriving (Show, Eq)
 
 -- Define a Pokemon with a name, type and HP, this time with a new catch rate for the new system
 data Pokemon = Pokemon {
     pokemonName   :: String,
     pokemonType   :: Type,
-    HP            :: Double,
+    hp            :: Double,
     hitPoints     :: Double,
     catchRate     :: Double
 } deriving (Show)
@@ -22,7 +23,7 @@ data Pokeball = Pokeball {
 -- Function to attempt catching a Pokémon
 catchPokemon :: Pokemon -> Pokeball -> IO Bool
 catchPokemon pokemon ball = do
-    let hpFactor = (HP pokemon - hitPoints pokemon) / HP pokemon -- I think more damage = easier to catch
+    let hpFactor = (hp pokemon - hitPoints pokemon) / hp pokemon -- I think more damage = easier to catch
         baseCatchChance = catchRate pokemon * catchModifier ball * hpFactor
     randomNumber <- randomRIO (0.0, 1.0)  -- Generate a random number between 0 and 1
     let success = randomNumber < baseCatchChance
@@ -35,13 +36,13 @@ ultraBall     = Pokeball { ballName = "Ultra Ball", catchModifier = 2.0 }
 
 -- Example Pokémon
 pikachu :: Pokemon
-pikachu = Pokemon { pokemonName = "Pikachu", pokemonType = Electric, hitPoints = 30, HP = 50, catchRate = 0.3 }
+pikachu = Pokemon { pokemonName = "Pikachu", pokemonType = Electric, hitPoints = 30, hp = 50, catchRate = 0.3 }
 
 charizard :: Pokemon
-charizard = Pokemon { pokemonName = "Charizard", pokemonType = Fire, hitPoints = 10, HP = 150, catchRate = 0.2 }
+charizard = Pokemon { pokemonName = "Charizard", pokemonType = Fire, hitPoints = 10, hp = 150, catchRate = 0.2 }
 
 bulbasaur :: Pokemon
-bulbasaur = Pokemon { pokemonName = "Bulbasaur", pokemonType = Grass, hitPoints = 40, HP = 100, catchRate = 0.25 }
+bulbasaur = Pokemon { pokemonName = "Bulbasaur", pokemonType = Grass, hitPoints = 40, hp = 100, catchRate = 0.25 }
 
 -- Simulate an attempt to catch a Pokémon
 simulateCatch :: Pokemon -> Pokeball -> IO ()
