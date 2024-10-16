@@ -18,3 +18,6 @@ By the end of the workshop, you will be prepared to build robust and maintainabl
 ### Challenge 2: Pokédex Filter
 **Description**: Use higher-order functions (e.g., filter, map) to obtain a list of Pokémon of a certain type.<br/>
 **Objective**: Learn how to use higher-order functions to manipulate data on a list.
+
+### Challenge : Pokémon Catch System
+**Description**: The primary objective of this challenge is to implement a system that resambles the Pokémon catching mechanic.
