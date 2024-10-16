@@ -9,6 +9,7 @@ class Pokemon():
         self.level += 1
         self.hp += 10
         print (self.name + " ha raggiunto il livello " + str(self.level) + "!")
+        self.evolve()
 
     def evolve(self):
         return self
@@ -24,8 +25,9 @@ class Charmander(Pokemon):
 
 
     def evolve(self):
-        if self.level >= 16:
-            return Charmeleon(self.name, self.level)
+        if self.level == 16:
+            print("Charmander ha evoluto in Charmeleon!")
+            return Charmeleon(self.name,self.type, self.level, self.hp, self.moves)
         else:
             return self
 
@@ -40,6 +42,7 @@ class Charmeleon(Pokemon):
 
     def evolve(self):
         if self.level >= 36:
+            print("Charmeleon ha evoluto in Charizard!")
             return Charizard(self.name, self.level)
         else:
             return self
