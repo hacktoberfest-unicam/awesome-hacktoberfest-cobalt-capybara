@@ -1,13 +1,4 @@
-pokemons = [
-    {"name": "Pikachu", "hp": 35},
-    {"name": "Charizard", "hp": 78},
-    {"name": "Bulbasaur", "hp": 45},
-    {"name": "Squirtle", "hp": 44},
-    # Add more Pokémon as needed
-]
-
-
-# O(n log n)
+# O(n log n) power sort
 def inbuild_sorting(pokemons):
     return sorted(pokemons, key=lambda pokemon: pokemon["hp"])
 
@@ -21,6 +12,13 @@ def bubble_sort(pokemons):
     return pokemons
 
 # ------------------------
+pokemons = [
+    {"name": "Pikachu", "hp": 35},
+    {"name": "Charizard", "hp": 78},
+    {"name": "Bulbasaur", "hp": 45},
+    {"name": "Squirtle", "hp": 44},
+    # Add more Pokémon as needed
+]
 functions = [inbuild_sorting, bubble_sort]
 
 
