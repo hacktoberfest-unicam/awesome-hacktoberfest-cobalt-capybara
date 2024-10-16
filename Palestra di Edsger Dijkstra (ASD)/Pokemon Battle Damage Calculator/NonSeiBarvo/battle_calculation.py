@@ -1,6 +1,7 @@
 type_advantage = {
     "elettro": ["volante", "acqua"],
-    "fuoco": ["coleottero", "erba", "ghiaccio", "acciaio"]
+    "fuoco": ["coleottero", "erba", "ghiaccio", "acciaio"],
+    # it can be extended
 }
 
 

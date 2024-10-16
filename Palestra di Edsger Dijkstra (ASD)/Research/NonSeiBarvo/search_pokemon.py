@@ -1,4 +1,5 @@
-def search(pokedex, key, value):
+def general_search(pokedex, key, value):
+    """method used to search id or names, selecting the appropriate algorithm"""
     index = -1
     if key == "name":
         index = linear_search(pokedex, value)
@@ -40,18 +41,18 @@ pokedex = [
 
 
 def test_search_name(pokedex):
-    index = search(pokedex, "name", "Venusaur")
+    index = general_search(pokedex, "name", "Venusaur")
     assert index == 2
-    index = search(pokedex, "name", "")
+    index = general_search(pokedex, "name", "")
     assert index == -1
 
 
 def test_search_id(pokedex):
-    index = search(pokedex, "id", 1)
+    index = general_search(pokedex, "id", 1)
     assert index == 0
-    index = search(pokedex, "id", -1)
+    index = general_search(pokedex, "id", -1)
     assert index == -1
-    index = search(pokedex, "id", 1000)
+    index = general_search(pokedex, "id", 1000)
     assert index == -1
 
 
