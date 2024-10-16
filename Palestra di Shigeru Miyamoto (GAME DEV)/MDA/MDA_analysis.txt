@@ -6,6 +6,4 @@ The player can choose to pit their Pokémon in battle against other trainers or 
 Dynamics: The player can input the direction in which they want to go to explore the world map and press specific buttons to either interact with people and objects or to open their inventory and save their progress. 
 Once in a battle, the player can choose to instruct their Pokémon to act in battle or, if possible, catch the opposing Pokémon through a Pokéball 
 
-Aesthetics: The predominant aesthetic is Fantasy due to the player exploring a world of fiction and interacting with imaginary creatures.
-other aesthetics that derive from this base are Discovery (Exploration of the game world), Sensation (Pokémon cries, battle themes, OSTs), 
-Challenge (Engaging in Pokémon battles against stronger trainers) 
+Aesthetics: The player is bound to feel a sense of awe and surprise during the exploration of the world due to the colorful and varied locations present in the game, which at times can also completely subvert the mood and become dull, silent and lonely to better express the feeling of certain locations. During battle, the player can feel a range of emotions that span from joy and fun to tension and axiety depending on the stakes of the battle. The audio-visual components also make up a considerable part of the experience having the player feel varying sensations throughout the whole experience
