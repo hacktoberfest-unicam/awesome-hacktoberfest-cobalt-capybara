@@ -17,8 +17,15 @@ def main():
         {"id": 5, "name": "Pikachu"},
     ]
     
-    # Search key, can be a Pokémon name or id
-    search_key = "Charmander"  # Can also try with 4 or any other name/id
+    ## Prompt user for input
+    search_key = input("Enter the name or ID of the Pokémon to search: ")
+    
+    # Perform the linear search
+    # Try to convert input to integer to search by ID
+    try:
+        search_key = int(search_key)  # Convert to integer if it's an ID
+    except ValueError:
+        pass  # Keep search_key as string if conversion fails
     
     # Perform the linear search
     result = linear_search(pokedex, search_key)
