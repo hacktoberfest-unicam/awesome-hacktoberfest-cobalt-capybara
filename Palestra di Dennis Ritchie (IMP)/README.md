@@ -21,5 +21,5 @@ The primary objectives of this category are to:
 **Objective**: The goal is to enhance your understanding of data management and program flow control using loops and conditionals while practicing state management through the trading interactions between trainers.
 
 ### Challenge 3: Pokemon Level Check
-**Description**: In this challenge, you will develop a simple program that checks the pokemon level and divides them between even and odd levelled Pokémons.
+**Description**: In this challenge, you will develop a simple program that checks the pokemon level and divides them between even and odd levelled Pokémons.<br/>
 **Objective**: The goal is to enhance your understanding of array management, if conditions and loops.
