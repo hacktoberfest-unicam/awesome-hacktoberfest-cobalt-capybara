@@ -1,4 +1,4 @@
-import Pokemon
+from pokemon import Pokemon
 
 bulbasaur = Pokemon("Bulbasaur", "Grass", 49, 49, ["Vine Whip", "Razor Leaf"], ["Fire"])
 charmander = Pokemon("Charmander", "Fire", 52, 43, ["Ember", "Flamethrower"], ["Grass"])

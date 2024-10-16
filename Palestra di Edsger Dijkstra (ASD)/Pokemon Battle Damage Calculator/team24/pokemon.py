@@ -5,7 +5,7 @@ class Pokemon:
         self.attack = attack
         self.defense = defense
         self.moves = moves
-        list: self.supereff = supereff
+        self.supereff = supereff
 
 
     def calculate_damage(self, target):
@@ -15,7 +15,7 @@ class Pokemon:
         return base_damage * self.type_advantage(target)
 
     def type_advantage(self, target):
-        if target.type in supereff:
+        if target.type in self.supereff:
             return 2
 
 

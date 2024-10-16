@@ -16,6 +16,7 @@ def main():
     result = linear_search(pokedex, search_key)
     
     if result is not None:
+        print(pokedex)
         print("Pokémon trovato: " + str(result)) 
     else:
         print("Pokémon non trovato.")
