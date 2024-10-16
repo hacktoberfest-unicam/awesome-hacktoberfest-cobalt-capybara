@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import utils.std.*;
 
 public class App {
     static int fixed;
@@ -25,10 +26,10 @@ public class App {
             if(flag) {    //c'è almeno un elemento nell'array, se c'è dev'essere positivo
                 sort_pokemon_levels(levels);
             }else{
-                System.out.println("Error: negative value in the array");
+                StdOut.println("Error: negative value in the array");
             }
         }else{
-            System.out.println("Error: empty array");
+            StdOut.println("Error: empty array");
         }
     }
 
@@ -51,13 +52,13 @@ public class App {
         Collections.sort(even_levels);
         Collections.sort(odd_levels);
 
-        System.out.println("Even levels:"); 
+        StdOut.println("Even levels:"); 
         for (int level : even_levels) {
-            System.out.println(level);
+            StdOut.println(level);
         }
-        System.out.println("Odd levels:");
+        StdOut.println("Odd levels:");
         for (int level : odd_levels) {
-            System.out.println(level);
+            StdOut.println(level);
         }
     }
 }
