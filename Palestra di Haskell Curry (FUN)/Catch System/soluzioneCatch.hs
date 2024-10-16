@@ -59,4 +59,4 @@ main :: IO ()
 main = do
     let pokemonToCatch = pikachu  -- Try with Pikachu (I don't know many pokemon...)
     let ballToUse = greatBall     -- Use a Great Ball
-    simulateCatch
+    simulateCatch pokemonToCatch ballToUse
