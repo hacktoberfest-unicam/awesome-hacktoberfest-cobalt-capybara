@@ -1,0 +1,59 @@
+/* Stile di base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Intestazione */
+header {
+    background-color: #ffcb05;
+    padding: 20px;
+}
+
+h1 {
+    color: #3b4cca;
+    margin: 0;
+}
+
+/* Sezione principale */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border: 2px solid #ffcb05;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3b4cca;
+}
+
+p {
+    font-size: 18px;
+    color: #555555;
+}
+
+/* Pulsante Pokémon */
+button {
+    background-color: #ffcb05;
+    color: #3b4cca;
+    border: 2px solid #3b4cca;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b4cca;
+    color: #ffcb05;
+}
